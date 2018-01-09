@@ -1,0 +1,143 @@
+/* Style the list */
+
+/*
+	current colors: 
+		#c6d9ec - navigation background color - medium blue
+		#ecf2f9 - header background color - light blue
+		#006699 - tab hover color - darker blue
+		#0077b3 - header font color 
+		#204060 - tab font color
+		#9fbfdf - tab active page color
+*/
+
+
+body {
+	font-family:arial;
+	line-height: 1.75;
+}
+
+
+#bodyContainer{
+	margin:2px;
+	padding:15px;
+	border: 1px solid #ccc;
+	background-color:#ecf2f9;
+	height: auto;
+}
+
+#bodyContainer:before,
+#bodyContainer:after {
+    content : "";
+    display : table;
+}
+#bodyContainer:after {
+    clear : both;
+}
+
+#about{
+	padding: 0px 15px;
+	width: 90%;
+}
+
+.author{
+	height:280px;
+	vertical-align: middle;
+	display:block;
+}
+
+.left{
+	width:75%;
+	float:left;	
+	padding:15px;
+}
+
+
+@media screen and (min-width: 1180px) and (max-width: 1350px) {
+	.left{
+		width:70%;
+	}
+}
+
+@media screen and (max-width: 1180px) {
+	.left{
+		width:65%;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.left{
+		width:55%;
+	}
+}
+
+.right{
+	width:260px;
+	float:left;
+	padding: 5px;
+	margin: 0 10px;
+	
+}
+
+.right  img{
+	display:block;
+    margin:auto;
+}
+
+
+.header {
+	font-size:50px;
+	color:#0077b3;
+	text-align:center;
+	padding:10px;
+	background-color:#ecf2f9;
+	border: 1px solid #ccc;
+	margin:2px;
+}
+.activeTab {
+	background-color:#9fbfdf;
+}
+ul.tab {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	background-color: #c6d9ec;
+	margin:2px;
+}
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a, a:visited {
+	display: inline-block;
+	color: #204060;
+	text-align: center;
+	padding: 4px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+/* Change background color of links on hover */
+ul.tab li a:hover {
+	background-color:#006699;
+	color: white;
+}
+
+
+#footer{
+	bottom:0;
+	height:40px; 
+	clear:both;
+}
+
+#footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	text-align: center;
+}
+
+#footer li {
+    display: inline;
+	padding: 0 10px;
+}
