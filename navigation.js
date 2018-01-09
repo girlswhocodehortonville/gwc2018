@@ -16,12 +16,7 @@ function loadNav(){
 	var ul = document.createElement('ul');
 	ul.className = 'tab';
 	addTab(ul, 'index.html', 'Home', currentPage);
-	addTab(ul, 'FaceMiniGame.html', 'Face Mini-Game', currentPage);
-	addTab(ul, 'GreenTeam.html', 'Green Team', currentPage);
-	addTab(ul, 'Rockin.html', 'Rockin', currentPage);
-	addTab(ul, 'GNK.html', 'Check Yoself', currentPage);
-	addTab(ul, 'happybeats.html', 'Happy Beats', currentPage);
-	addTab(ul, 'disorders.html', 'Depression Disorders', currentPage);
+	addTab(ul, 'petpage1.html', 'Pet Page 1', currentPage);
 
 	// Add the Header and Tabs to the container
 	headerContainer.appendChild(headerDiv);
