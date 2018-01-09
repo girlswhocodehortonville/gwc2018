@@ -1,9 +1,4 @@
-# gwc2018
-GWC Hortonville 2018 CS Impact
-
-
-
-Welcome to Girls Who Code Hortonville
+Welcome to Girls Who Code Hortonville - 2018
 
 navigation.css contains all the styles - colors, fonts, sizes, etc for the navigation and header navigation.js contains the code for building the header and navigation bar
 
