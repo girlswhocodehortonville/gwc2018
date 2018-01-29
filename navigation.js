@@ -18,6 +18,7 @@ function loadNav(){
 	addTab(ul, 'index.html', 'Home', currentPage);
 	addTab(ul, 'petpage1.html', 'Pet Page 1-Template', currentPage);
 	addTab(ul, 'grace.html', 'Grace', currentPage);
+	addTab(ul, 'about.html', 'About Us', currentPage);
 
 	// Add the Header and Tabs to the container
 	headerContainer.appendChild(headerDiv);
