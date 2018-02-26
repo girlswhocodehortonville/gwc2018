@@ -16,8 +16,10 @@ function loadNav(){
 	var ul = document.createElement('ul');
 	ul.className = 'tab';
 	addTab(ul, 'index.html', 'Home', currentPage);
-	addTab(ul, 'petpage1.html', 'Pet Page 1-Template', currentPage);
+	addTab(ul, 'summer.html', 'Summer', currentPage);
 	addTab(ul, 'grace.html', 'Grace', currentPage);
+	addTab(ul, 'kate.html', 'Safe Foods', currentPage);
+	addTab(ul, 'jenna.html', 'Vacation Information', currentPage);
 	addTab(ul, 'about.html', 'About Us', currentPage);
 
 	// Add the Header and Tabs to the container
