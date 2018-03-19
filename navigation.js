@@ -16,8 +16,8 @@ function loadNav(){
 	var ul = document.createElement('ul');
 	ul.className = 'tab';
 	addTab(ul, 'index.html', 'Home', currentPage);
-	addTab(ul, 'summer.html', 'Summer', currentPage);
-	addTab(ul, 'grace.html', 'Grace', currentPage);
+	addTab(ul, 'summer.html', 'Service Animals', currentPage);
+	addTab(ul, 'grace.html', 'Fun Facts', currentPage);
 	addTab(ul, 'kate.html', 'Safe Foods', currentPage);
 	addTab(ul, 'jenna.html', 'Vacation Information', currentPage);
 	addTab(ul, 'about.html', 'About Us', currentPage);
